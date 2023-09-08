@@ -9,7 +9,7 @@ def simple_iteration(x0,e,max_iter,a):
 
 
 def main():
-    print(simple_iteration(2,0.01,20,5))
+    print(simple_iteration(2,0.01,4,9))
 
 if __name__ == '__main__':
     main()
