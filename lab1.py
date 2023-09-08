@@ -27,5 +27,7 @@ def main():
     print(dih(0, 2.5, 0.001, 20))
 
 
+#     output: 1.99981689453125
+
 if __name__ == '__main__':
     main()
