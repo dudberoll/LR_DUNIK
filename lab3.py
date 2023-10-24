@@ -80,7 +80,7 @@ def simple_iterations(A, X , e):
     for _ in range(max_iter):
         X_next = A.dot(X_next) + x
 
-        if np.linalg.norm(X_next - X) < e:
+        if np.linalg.norm(X_next - X) <= e:
             return X_next.T
 
         X = X_next
