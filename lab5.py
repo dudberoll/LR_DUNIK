@@ -50,13 +50,20 @@ def main():
     x_values = np.array([2,3,4,5])
     y_values = np.array([7,5,8,7])
     print('Значение в точке:',lagrange(x_values,y_values,2.5))
+    # output:
+    # Значение в точке: 4.8125
 
     # Линейная интерполяция
     x_values = np.array([-1, 0, 1, 3, 4])
     y_values = np.array([-1, 0, 1, 27, 64])
     print('Значение в точке:', linear_lagrange(x_values, y_values, 2))
+    # output:
+    # Значение в точке: 14.0
 
     # Параболическая интерполяция
     print('Значение в точке:', parabolic_lagrange(x_values, y_values, 2))
+    # output:
+    # Значение в точке: 8.0
+
 if __name__ == '__main__':
     main()
